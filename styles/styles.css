@@ -1,6 +1,15 @@
+@font-face {
+    font-family: MondaRegular;
+    src: url(../font/MondaFuente/Monda-Regular.otf);
+}
+@font-face {
+    font-family: Milimetre;
+    src: url(../font/MillimetreFuente/Millimetre/Millimetre-Regular.otf);
+}
 :root{
-    --pri: #fff;
-    --sec: rgb(0, 0, 0);
+    --priM: #1A1A33;
+    --secMC: #A490FF;
+    --terV:#C3EEA6;
 }
 
 *{
@@ -18,20 +27,24 @@ body{
 }
 
 /*Header*/
+.logo{
+    height: 8rem;
+    left: 13rem;
+}
 
 .logocon{
     height: 10rem;
-    background-color: rgb(29, 4, 95);
+    background-color:  white/*var(--priM)*/;
 }
+
 
 .barra{
     height: 4rem;
-    font-family: var(--sec);
-    background-color: var(--pri);
-    border-bottom: 2px solid royalblue;
+    border-bottom: 2px solid var(--secMC);
     transition: .3s;
     margin-bottom: 5rem;
 }
+
 
 .links{    
     display: flex;
@@ -45,6 +58,12 @@ body{
 .link>a{
     font-size: 1.7rem;
     text-decoration: none;
+    font-family: MondaRegular;
+    color: var(--priM);
+}
+
+.link>a:hover{
+    color: var(--priM);
 }
 
 /*nav:hover{
@@ -67,7 +86,7 @@ body{
 .slider{
     display: flex;
     width: 400%;
-    height: 45rem;
+    height: 45rem;   /*Tamaño de la img*/
     margin-left: -100%;
 }
 
@@ -106,4 +125,22 @@ body{
 
 .sl-btn-l{
     left: 1rem;
+}
+
+/*Footer*/
+
+.footer{
+    height: 30rem;
+}
+
+.footer>div{
+    height: 100%;
+    background-color: var(--priM);
+}
+
+/*Testimonios de egresados*/
+
+
+.tes>div{
+    height: 70rem;
 }

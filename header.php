@@ -12,10 +12,12 @@
 <body>
     <section class="header">
         <div class="logocon container-fluid ">
-            <a href="./index.php"><img src="" alt="logo"></a>
+            <a href="./index.php">
+                <img class="logo position-relative top-50 translate-middle" src="./img/Logo-cimneacademia.png" alt="Logo-cimneacademia">
+            </a>
         </div>
         <div class="container p-0">
-            <nav class="barra mt-1 ps-4 pe-4">
+            <nav class="barra mt-1 ps-4 pe-4 grad">
                 <div class="links">
 
                     <div class="link">
