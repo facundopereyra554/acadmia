@@ -40,5 +40,5 @@ btnLeft.addEventListener("click",function(){
 })
 
 setInterval(function(){
-    right()
+   right()
 }, 5000)
