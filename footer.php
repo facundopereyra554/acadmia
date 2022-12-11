@@ -4,12 +4,13 @@
     <footer class="pie-pagina">
         <div class="grupo-1">
             <div class="box container-form">
-            <form action="#" autocomplete="off">
-                <input type="text" name="nombre" placeholder="Tu Nombre" class="campo">
-                <input type="emal" name="email" placeholder="Tu Email" class="campo">
-                <textarea name="mensaje" placeholder="Tu Mensaje..."></textarea>
-                <input type="submit" name="enviar" value="Enviar Mensaje" class="btn-enviar">
-            </form>
+                <h2>FORMULARIO DE CONTACTO</h2>
+                <form action="#" autocomplete="off">
+                    <input type="text" name="nombre" placeholder="Nombre" class="campo">
+                    <input type="emal" name="email" placeholder="Email" class="campo">
+                    <textarea name="mensaje" placeholder="Mensaje" class="campo"></textarea>
+                    <input type="submit" name="enviar" value="Enviar Mensaje" class="btn-enviar">
+                </form>
             </div>
             <div class="box">
                 <h2>INFORMACIÓN DE CONTACTO</h2>
@@ -38,7 +39,6 @@
 </body>
 <script src="./scripts/slider.js"></script>
 <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
-
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 
 </html>

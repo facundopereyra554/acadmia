@@ -15,7 +15,7 @@
 
 <nav>
     <div class="wrapper">
-    <a href="./index.php"><img src="./img/Logo-cimneacademia.png" alt="logo" class="logo"></a>
+    <a class="logolink" href="./index.php"><img src="./img/Logo-cimneacademiaClaro.png" alt="logo" class="logo"></a>
       <input type="radio" name="slider" id="menu-btn">
       <input type="radio" name="slider" id="close-btn">
       <ul class="nav-links m-0">

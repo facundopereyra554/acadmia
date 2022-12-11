@@ -23,6 +23,7 @@
     </section>
 
     <section class="test">
+        <h3 class="subTitle" data-aos="fade-up">Testimonios de Egresaxs</h3>
         <div class="wrapperSli">
             <div class="center-line">
                 <a href="#" class="scroll-icon"><i class="fas fa-caret-up"></i></a>
