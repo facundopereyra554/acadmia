@@ -5,15 +5,41 @@
         <div class="slider" id="slider">
             <div class="slider-section">
                 <img src="./img/slider1.jpg" alt="" class="sl-img">
+                <h3 class="bannertext">Bootcamp</h3>
+                <p class="subbannertext">Somos una academia que estimula el interes por <br>
+                    aprender a aprender. Desarrollamos y potenciamos <br>
+                    competencias y habilidades para la inserción laboral <br>
+                    en el mundo digital.
+                </p>
             </div>
             <div class="slider-section">
                 <img src="./img/slider2.jpg" alt="" class="sl-img">
+                <h3 class="bannertext">Bootcamp</h3>
+                <p class="subbannertext">Somos una academia que estimula el interes por <br>
+                    aprender a aprender. Desarrollamos y potenciamos <br>
+                    competencias y habilidades para la inserción laboral <br>
+                    en el mundo digital.
+                </p>
             </div>
             <div class="slider-section">
                 <img src="./img/slider3.jpg" alt="" class="sl-img">
+                <h3 class="bannertext">Bootcamp</h3>
+                <p class="subbannertext">Somos una academia que estimula el interes por <br>
+                    aprender a aprender. Desarrollamos y potenciamos <br>
+                    competencias y habilidades para la inserción laboral <br>
+                    en el mundo digital.
+                </p>
+
             </div>
             <div class="slider-section">
                 <img src="./img/slider4.jpg" alt="" class="sl-img">
+                <h3 class="bannertext">Bootcamp</h3>
+                <p class="subbannertext">Somos una academia que estimula el interes por <br>
+                    aprender a aprender. Desarrollamos y potenciamos <br>
+                    competencias y habilidades para la inserción laboral <br>
+                    en el mundo digital.
+                </p>
+
             </div>
         </div>
 

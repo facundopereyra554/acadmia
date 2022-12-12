@@ -5,9 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./styles/styles.css" rel="stylesheet"  type="text/css">
-    <link rel="stylesheet" href="./styles/slider.css" type="text/css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <title>Document</title>
 </head>
@@ -22,13 +21,13 @@
         <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
 
         <li>
-          <a href="#" class="desktop-item">Menu</a>
+          <a href="#" class="desktop-item">Menu <i class='bx bx-collapse-alt bx-tada' ></i></a>
           <input type="checkbox" id="showMega">
-          <label for="showMega" class="mobile-item">Menu</label>
+          <label for="showMega" class="mobile-item">Menu <i class='bx bx-collapse-alt bx-tada' ></i></label>
           <div class="mega-box">
             <div class="content">
               <div class="row">
-              <header>Cursos</header>
+              <header>Cursos <i class='bx bx-book bx-tada' ></i></header>
                 <ul class="mega-links">
                   <li><a href="#">1000 Programadores</a></li>
                   <li><a href="#">Intro</a></li>
@@ -37,9 +36,8 @@
                 </ul>
               </div>
               <div class="row">
-                <header>Carreras</header>
+                <header>Carreras <i class='bx bxs-graduation bx-tada' ></i></header>
                 <ul class="mega-links">
-                  <h3 class="espe">Técnicatura en Desarrollo de Software ></h3>
                   <li><a href="#">-Programacion 1</a></li>
                   <li><a href="#">-Ingles</a></li>
                   <li><a href="#">-Competencias del Emprendedor</a></li>
@@ -47,7 +45,7 @@
               </div>
 
               <div class="row">
-                <header>Para Empresas</header>
+                <header>Para Empresas <i class='bx bx-buildings'></i></header>
                 <ul class="mega-links">
                   <h3 class="espe">Capacitaciones ></h3>
                   <li><a href="#">-Programacion 1</a></li>
@@ -57,7 +55,7 @@
               </div>
 
               <div class="row">
-                <header>Nosotros</header>
+                <header>Nosotro <i class='bx bx-male-female'></i></header>
                 <ul class="mega-links">
                   <li><a href="#">Equipo</a></li>
                   <li><a href="#">Valores</a></li>
@@ -67,7 +65,7 @@
               </div>
 
               <div class="row">
-                <header>Nuestros Clientes</header>
+                <header>Nuestros Clientes <i class='bx bx-building-house'></i></header>
                 <ul class="mega-links">
                   <li><a href="#">Ministerios</a></li>
                   <li><a href="#">UPAteCO</a></li>
@@ -75,14 +73,11 @@
                 </ul>
               </div>
 
-
-
-
             </div>
           </div>
         </li>
 
-        <li>
+<!--     <li>
           <a href="#" class="desktop-item">Nosotros</a>
           <input type="checkbox" id="showDrop">
           <label for="showDrop" class="mobile-item">Nosotros</label>
@@ -92,7 +87,7 @@
             <li><a href="#">Mision</a></li>
             <li><a href="#">Vision</a></li>
           </ul>
-        </li>
+        </li>-->
 
       </ul>
       <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
