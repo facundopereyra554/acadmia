@@ -55,7 +55,7 @@
               </div>
 
               <div class="row">
-                <header>Nosotro <i class='bx bx-male-female'></i></header>
+                <header>Nosotros <i class='bx bx-male-female'></i></header>
                 <ul class="mega-links">
                   <li><a href="#">Equipo</a></li>
                   <li><a href="#">Valores</a></li>

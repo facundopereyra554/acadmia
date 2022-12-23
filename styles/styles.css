@@ -33,6 +33,7 @@ body{
     margin: 0;
 }
 
+
 .subTitle{
   font-size: 3.5rem;
   color: var(--priM);
@@ -48,15 +49,9 @@ ul{
 }
 
 .logo{
-    height: 16rem;
-    width: 26rem;
-    left: 13rem;
+    height: 7rem;
 }
-.logolink{
-  height: 6rem;
-  position: relative;
-  bottom: 6rem;
-}
+
 
 nav{
     position: fixed;
@@ -168,6 +163,7 @@ nav .wrapper{
 .row .mega-links li a{
     padding: 0px;
     padding: 0 20px;
+    margin: 0 1rem;
     color: #d9d9d9;
     font-size: 1.5re;
     display: block;
@@ -306,6 +302,10 @@ nav .wrapper{
     .content .row header{
       font-size: 19px;
     }
+
+    .row .mega-links li a{
+        font-size: 1.2rem;
+    }
 }
 nav input{
     display: none;
@@ -352,6 +352,8 @@ nav input{
     padding-left: 5rem;
     font-size: 3rem;
     font-family: MondaBold;
+    letter-spacing: 1rem;
+    color: var(--priM);
 }
 
 .subbannertext{
@@ -360,7 +362,7 @@ nav input{
     position: relative;
     bottom: 50%;
     padding-left: 5rem;
-    color: var(--secMC);
+    color: var(--priM);
 }
 
 .sl-img{
@@ -538,6 +540,52 @@ nav input{
     }
 }
 
+/*Seccion Nosotros*/
+
+.nosGrid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+@media (max-width:760px) {
+    .nosGrid{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.caja>h3{
+    font-size: 3rem;
+    font-family: MondaRegular;
+    color: var(--secMC);
+    text-transform: uppercase;
+}
+
+.caja>p{
+    width: 30rem;
+    font-size: 1.3rem;
+    font-family: MondaRegular;
+    color: var(--secMC);
+    text-align: justify;
+    margin-bottom: 6rem;
+}
+
+.caja>img{
+    width: 46rem;
+    height: 52rem;
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
 /*Footer*/
 .container-form{
     margin-right: 4rem;
@@ -639,3 +687,7 @@ nav input{
 
 }
 
+/*Opciones*/
+.som{
+    text-shadow: 2px 2px 4px #686565;
+}

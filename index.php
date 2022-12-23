@@ -14,8 +14,8 @@
             </div>
             <div class="slider-section">
                 <img src="./img/slider2.jpg" alt="" class="sl-img">
-                <h3 class="bannertext">Bootcamp</h3>
-                <p class="subbannertext">Somos una academia que estimula el interes por <br>
+                <h3 class="bannertext text-light">Bootcamp</h3>
+                <p class="subbannertext text-light">Somos una academia que estimula el interes por <br>
                     aprender a aprender. Desarrollamos y potenciamos <br>
                     competencias y habilidades para la inserción laboral <br>
                     en el mundo digital.
@@ -23,8 +23,8 @@
             </div>
             <div class="slider-section">
                 <img src="./img/slider3.jpg" alt="" class="sl-img">
-                <h3 class="bannertext">Bootcamp</h3>
-                <p class="subbannertext">Somos una academia que estimula el interes por <br>
+                <h3 class="bannertext text-light">Bootcamp</h3>
+                <p class="subbannertext text-light som">Somos una academia que estimula el interes por <br>
                     aprender a aprender. Desarrollamos y potenciamos <br>
                     competencias y habilidades para la inserción laboral <br>
                     en el mundo digital.
@@ -33,8 +33,8 @@
             </div>
             <div class="slider-section">
                 <img src="./img/slider4.jpg" alt="" class="sl-img">
-                <h3 class="bannertext">Bootcamp</h3>
-                <p class="subbannertext">Somos una academia que estimula el interes por <br>
+                <h3 class="bannertext text-light">Bootcamp</h3>
+                <p class="subbannertext text-light">Somos una academia que estimula el interes por <br>
                     aprender a aprender. Desarrollamos y potenciamos <br>
                     competencias y habilidades para la inserción laboral <br>
                     en el mundo digital.
@@ -47,6 +47,33 @@
         <img class="sl-btn sl-btn-l" id="btn-l" src="./img/icons/botonizquierdaMora.png" >
 
     </section>
+
+
+
+    <section class="team container mt-5">
+        <div class="nosGrid">
+            <div class="caja pt-5 ps-5">
+                <h3>Misión</h3>
+                <p>Generar un espacio para un aprendizaje integral que permita la construcción de
+                    conocimientos a través de un trabajo colaborativo.</p>
+                <h3>Visión</h3>
+                <p>Expandirnos a nivel internacional y brindar capacitación a empresas.</p>
+                <h3>Equipo</h3>
+                <p>Somos un equipo de profesionales de distintas disciplinas especialistas en
+                    programación, diseño gráfico y comunicación que comparten la pasión por  compartir
+                    y generar oportunidades.</p>
+                <h3>Modalidad</h3>
+                <p>Los cursos de darán de manera virtual sincronica y asincronicamente.</p>
+            </div>
+            <div class="caja cajaimg">
+                <img src="./img/flLogoClaro.png">
+            </div>
+        </div>
+    </section>
+
+
+
+
 
     <section class="test">
         <h3 class="subTitle" data-aos="fade-up">Testimonios de Egresaxs</h3>
