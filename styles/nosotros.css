@@ -1,0 +1,152 @@
+@font-face {
+    font-family: MondaRegular;
+    src: url(../font/MondaFuente/Monda-Regular.otf);
+}
+@font-face {
+    font-family: Milimetre;
+    src: url(../font/MillimetreFuente/Millimetre/Millimetre-Regular.otf);
+}
+
+@font-face {
+  font-family: MondaBold;
+  src: url(../font/MondaFuente/Monda-Bold.otf);
+}
+:root{
+    --priM: #1A1A33;
+    --secMC: #A490FF;
+    --terV:#C3EEA6;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-size: 62.5%; /* 1 rem = 10px */    
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body{
+    margin: 0;
+}
+
+.nos{
+    height: 85rem;
+   ;
+
+}
+
+.nos>img{
+    width: 30rem;
+    height: auto;
+    position: absolute;
+    top: 5rem;
+    right: 0rem;    
+    z-index: -12;
+}
+
+
+@media (min-width:760px) {
+    .nosContent{
+        margin-top: 5rem; 
+        padding-left: 10rem
+    }
+}
+
+
+.caja>h3{
+    font-size: 3rem;
+    font-family: MondaBold;
+    color: var(--priM);
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+}
+
+.caja>p{
+    width: 30rem;
+    font-size: 1.3rem;
+    font-family: MondaRegular;
+    color: var(--priM);
+    text-align: justify;
+    margin-bottom: 6rem;
+}
+
+
+
+.boton-modal label{
+    color: var(--secMC);
+    cursor: pointer;
+    transition: all 300ms ease;
+    font-family: MondaRegular;
+    font-size: 1.5rem;
+}
+
+#btn-modal{
+    display: none;
+}
+.container-modal{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0; left: 0;
+    background-color: rgba(144, 148, 150, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 101;
+}
+#btn-modal:checked ~ .container-modal{
+    display: flex;
+}
+.content-modal{
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.content-modal h2{
+    margin-bottom: 15px;
+    font-family: MondaBold;
+    color: var(--priM);
+}
+.content-modal p{
+    padding: 15px 0px;
+    border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+    color: var(--priM);
+    font-family: MondaRegular;
+    font-size: 1.3rem;
+}
+.content-modal .btn-cerrar{
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+.content-modal .btn-cerrar label{
+    padding: 7px 10px;
+    background-color: var(--secMC);
+    font-size: 1.3rem;
+    font-family: MondaRegular;
+    color: var(--priM);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.cerrar-modal{
+    width:100%;
+    height: 100vh;
+    position: absolute;
+    top:0; left: 0;
+    z-index: -1;
+}
+@media screen and (max-width:800px) {
+    .content-modal{
+        width: 90%;
+    }
+}

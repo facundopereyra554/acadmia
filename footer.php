@@ -14,8 +14,8 @@
             </div>
             <div class="box">
                 <h2>INFORMACIÓN DE CONTACTO</h2>
-                <p>correoejemplo@gmail.com</p>
-                <p>0387 2222 22222</p>
+                <p>academia@cimne-iber.com.ar</p>
+                <p>+54 9 3875 87-3263</p>
                 <p>dónde estamos</p>
                 <p>SALTA - ARG</p>
             </div>

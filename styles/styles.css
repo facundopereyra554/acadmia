@@ -35,11 +35,19 @@ body{
 
 
 .subTitle{
-  font-size: 3.5rem;
-  color: var(--priM);
-  font-family: MondaRegular;
-  text-align: center;
-  margin-top: 4rem;
+    font-size: 3.5rem;
+    color: var(--priM);
+    font-family: MondaRegular;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+}
+
+.text{
+    font-size: 1.4rem;
+    font-family: MondaRegular;
+    color: var(--secMC);
+    text-align: justify;
+    margin-bottom:0;
 }
 
 /*Header*/
@@ -204,7 +212,7 @@ nav .wrapper{
     }
     /* custom scroll bar */
     ::-webkit-scrollbar {
-      width: 10px;
+      width: .1px;
     }
     ::-webkit-scrollbar-track {
       background: #242526;
@@ -322,25 +330,25 @@ nav input{
 /*Banner*/
 
 .banner{
-  width: 100%;
-  max-width: 90rem;
-  overflow: hidden;
-  height: 45rem;
-  margin: auto;
-  position: relative;
-  margin-top: 10rem;
-  border-radius: 5px;
+    width: 100%;
+    max-width: 90rem;
+    overflow: hidden;
+    height: 45rem;
+    margin: auto;
+    position: relative;
+    margin-top: 10rem;
+    border-radius: 5px;
 }
 
 .slider{
-  display: flex;
-  width: 400%;
-  height: 45rem;   /*Tamaño de la img*/
-  margin-left: -100%;
+    display: flex;
+    width: 400%;
+    height: 45rem;   /*Tamaño de la img*/
+    margin-left: -100%;
 }
 
 .slider-section{
-  width: 100%;
+    width: 100%;
 }
 
 
@@ -349,21 +357,53 @@ nav input{
     margin: 0;
     position: relative;
     bottom: 54%;
-    padding-left: 5rem;
+    padding-left: 6rem;
     font-size: 3rem;
     font-family: MondaBold;
-    letter-spacing: 1rem;
-    color: var(--priM);
+    letter-spacing: .5rem;
+    color: var(--secMC);
 }
 
 .subbannertext{
+    backdrop-filter: blur(5px);
+    padding: 1rem 3rem 1rem 6rem;
+    border-radius: 1rem;
+    text-align: justify;
+    width: 60rem;
+    height: 14rem;
     font-size: 1.4rem;
     font-family: MondaRegular;
     position: relative;
     bottom: 50%;
-    padding-left: 5rem;
-    color: var(--priM);
+    padding-left: 6rem;
+    color: var(--secMC);
 }
+
+@media (max-width:960px) {
+    .bannertext{
+        bottom: 53.5%;
+        font-size: 2.5rem;
+    }
+    .subbannertext{
+        width: 47rem;
+        padding-bottom: 15rem;
+    }
+}
+
+.btnSlider{
+    background-color: var(--priM);
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: 2rem;
+    color: white;
+    transition: .3s;
+}
+
+.btnSlider:hover{
+    background-color: #796abb;
+    color: white;
+}
+
 
 .sl-img{
   display: block;
@@ -540,50 +580,20 @@ nav input{
     }
 }
 
-/*Seccion Nosotros*/
+/*academia*/
 
-.nosGrid{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
+.text>span{
+    color: var(--priM);
+    font-size: 1.6rem;
 }
 
-@media (max-width:760px) {
-    .nosGrid{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
+
+
+@media (min-width:760px) {
+    .infoAcad{
+        padding: 0 10rem;
     }
 }
-
-.caja>h3{
-    font-size: 3rem;
-    font-family: MondaRegular;
-    color: var(--secMC);
-    text-transform: uppercase;
-}
-
-.caja>p{
-    width: 30rem;
-    font-size: 1.3rem;
-    font-family: MondaRegular;
-    color: var(--secMC);
-    text-align: justify;
-    margin-bottom: 6rem;
-}
-
-.caja>img{
-    width: 46rem;
-    height: 52rem;
-    position: relative;
-}
-
-
-
-
-
-
-
-
 
 
 /*Footer*/
@@ -625,6 +635,7 @@ nav input{
 .pie-pagina{
     width: 100%;
     background-color: var(--priM);
+    z-index: 99;
 }
 .pie-pagina .grupo-1{
     width: 100%;
@@ -687,7 +698,5 @@ nav input{
 
 }
 
-/*Opciones*/
-.som{
-    text-shadow: 2px 2px 4px #686565;
-}
+
+

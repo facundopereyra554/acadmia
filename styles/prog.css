@@ -1,0 +1,96 @@
+@font-face {
+    font-family: MondaRegular;
+    src: url(../font/MondaFuente/Monda-Regular.otf);
+}
+@font-face {
+    font-family: Milimetre;
+    src: url(../font/MillimetreFuente/Millimetre/Millimetre-Regular.otf);
+}
+
+@font-face {
+  font-family: MondaBold;
+  src: url(../font/MondaFuente/Monda-Bold.otf);
+}
+:root{
+    --priM: #1A1A33;
+    --secMC: #A490FF;
+    --terV:#C3EEA6;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-size: 62.5%; /* 1 rem = 10px */    
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body{
+    margin: 0;
+}
+
+.subTitleS{
+    font-size: 3.5rem;
+    color: var(--priM);
+    font-family: MondaBold;
+    text-align: left;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.infoProg{
+    margin-top: 10rem;
+    margin-bottom: 3rem;
+    border-radius: 1rem;
+}
+
+
+
+.gridPro>p{
+    font-size: 1.5rem;
+    font-family: MondaRegular;
+    color: var(--priM);
+    text-align: justify;
+    margin-bottom: 6rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.gridPro>img{
+    width: 95%;
+    height: 41rem;
+    position: relative;
+    border-radius: 1rem;
+    margin-left: 1rem;
+}
+
+@media (min-width:760px) {
+  .gridsProg{
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 4rem;
+    }  
+    .infoProg{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .subTitleS{
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .gridPro>img{
+        width: 100%;
+    }
+
+    .gridPro>p{
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
