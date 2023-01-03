@@ -34,10 +34,10 @@ body{
 }
 
 .nos{
+    margin-top: 10rem;
     height: 85rem;
-   ;
-
 }
+
 
 .nos>img{
     width: 30rem;
@@ -51,7 +51,6 @@ body{
 
 @media (min-width:760px) {
     .nosContent{
-        margin-top: 5rem; 
         padding-left: 10rem
     }
 }

@@ -74,7 +74,6 @@
                 <ul class="mega-links">
                   <li><a href="#">Ministerios</a></li>
                   <li><a href="#">UPAteCO</a></li>
-                  <li><a href="#">Silentium</a></li>
                 </ul>
               </div>
 
